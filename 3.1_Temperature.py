@@ -13,6 +13,10 @@ In: -40  Out: ???
 
 '''
 
+f=input("What is the temperature in degrees Fahrenheit?")
+c=(5*(int(f)-32))/(9)
+print("Okay! The temperature in degrees Celsius is: ", int(c), "°C")
+
 
 
 
